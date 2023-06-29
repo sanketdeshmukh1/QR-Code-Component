@@ -26,7 +26,7 @@ body {
 }
 
 .card {
-  height: 30rem;
+
   width: 20rem;
   background-color: var(--White);
   border-radius: 1rem;
@@ -59,21 +59,21 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  
   .card {
-    height: 90%;
     width: 80%;
     margin: 1rem 0.5rem;
-    background-color: var(--White);
     border-radius: 1rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    flex-shrink: inherit;
-  }  
-  
-  .darkheading {
-    font-size: large;
+    background-color: var(--White);
+    overflow: auto;
+  }
 
+  .darkheading {
+    font-size:medium;
+  }
+  .lightheading {
+    font-size: medium;
   }
 }
